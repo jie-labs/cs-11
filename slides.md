@@ -56,5 +56,43 @@ media: 'https://media.giphy.com/media/vzO0Vc8b2VBLi/giphy.gif'
   - OPAC
   - and more...
 
-# 
+---
+
+# The 7 Rules
+
+- ✋ **Be present** - 1 absent == Explanation letter; 2 absences == DROP
+- 👨‍💻 **Hands on your keyboard** - Store everything through computer
+- ❌ **Cellphones are not allowed** - Focus is the 🔑
+- 😴 **Take a break** - 7 minutes rest for every 40 minutes of the session
+- 🚀 **Self-exploration** - You can basically search and learn everything on the web today.
+- 🛠 **Have fun** - grow and learn together
+- 💡 **You can't know it all** - As much as you learn, there is still going to be a lot you don't know.
+- ✅ **Knowledge >>>>> Grades** - Aim for knowledge and not for grades.
+
+---
+
+# Prelim Overview
+
+- Reporting (Topics and assigned reporters will be posted)
+- Use google docs in making the presentation (use your institutional email @ckcm.edu.ph)
+- 2 reporters every 40minutes session
+- 100-200 items quiz everyweek including the reporter
+- Total of 15 activities
+---
+
+# Activity 1/15 
+- Create a presentation about yourself.
+- Use google docs with your own school email account. (<a href="docs.google.com" target="_">docs.google.com</a>).
+- Presentation includes the following information.
+  + **Personal information such as**
+    - Name
+    - Address
+    - Hubbies
+    - Etc...
+  + **Your expectations in this class**
+  + **Why you choose Computer Science?**
+  + **What is your goal after finishing CS Degree?**
+  + **Favorite Quote**
+
+<blockquote class="mt-2">"Make it simple, but not simpler 😃"</blockquote>
 
