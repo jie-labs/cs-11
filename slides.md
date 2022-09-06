@@ -63,7 +63,7 @@ media: 'https://media.giphy.com/media/vzO0Vc8b2VBLi/giphy.gif'
 - ✋ **Be present** - 1 absent == Explanation letter; 2 absences == DROP
 - 👨‍💻 **Hands on your keyboard** - Store everything through computer
 - ❌ **Cellphones are not allowed** - Focus is the 🔑
-- 😴 **Take a break** - 7 minutes rest for every 40 minutes of the session
+- 😴 **Take a break** - 7 minutes rest for every 40 minutes session
 - 🚀 **Self-exploration** - You can basically search and learn everything on the web today.
 - 🛠 **Have fun** - grow and learn together
 - 💡 **You can't know it all** - As much as you learn, there is still going to be a lot you don't know.
