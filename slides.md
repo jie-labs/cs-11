@@ -76,7 +76,8 @@ media: 'https://media.giphy.com/media/vzO0Vc8b2VBLi/giphy.gif'
 - Reporting (Topics and assigned reporters will be posted)
 - Use google docs in making the presentation (use your institutional email @ckcm.edu.ph)
 - 2 reporters every 40minutes session
-- 100-200 items quiz everyweek including the reporter
+- 1 activity everyweek, reporters are included
+- 100 points per activity
 - Total of 15 activities
 ---
 
