@@ -77,8 +77,9 @@ media: 'https://media.giphy.com/media/vzO0Vc8b2VBLi/giphy.gif'
 - Use google docs in making the presentation (use your institutional email @ckcm.edu.ph)
 - 2 reporters every 40minutes session
 - 1 activity everyweek, reporters are included
-- 100 points per activity
 - Total of 15 activities
+- 100 points per activity
+
 ---
 
 # Activity 1/15 
