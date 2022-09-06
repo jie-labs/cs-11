@@ -95,5 +95,5 @@ media: 'https://media.giphy.com/media/vzO0Vc8b2VBLi/giphy.gif'
   + **What is your goal after finishing CS Degree?**
   + **Favorite Quote**
 
-<blockquote class="mt-2">"Make it simple, but not simpler 😃"</blockquote>
+<blockquote class="mt-2">"Make it simple as possible, but not simpler 😃"</blockquote>
 
