@@ -89,7 +89,7 @@ media: 'https://media.giphy.com/media/vzO0Vc8b2VBLi/giphy.gif'
   + **Personal information such as**
     - Name
     - Address
-    - Hubbies
+    - Hobbies
     - Etc...
   + **Your expectations in this class**
   + **Why you choose Computer Science?**
