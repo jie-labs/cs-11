@@ -117,7 +117,7 @@ layout: two-cols
 <v-click>
 
 1. What is programming ?
-2. How de we write Code?
+2. How do we write Code?
 3. How do we get information from computers
 4. What can computer's do?
 5. What are Variables
@@ -240,7 +240,7 @@ media: 'https://media.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif'
 
 <v-click>
 
-<div class="pt-20 font-bold text-xl text-red-400"> BUT IT'S HARD 🤸 ... </div>
+<div class="pt-20 font-bold text-xl text-red-400"> IT'S HARD 🤸 ... </div>
 
 </v-click>
 
@@ -256,7 +256,8 @@ layout: two-cols
 - Programming languages serve as a middle-man of sorts
 - Translate your instructions into <mark>machine code</mark>
 	- The series of 0's and 1's that the computer can understand
-- Very useful for programmers
+- Serves as <mark>Interpreters</mark> for converting languages into other languages
+  - Faster than converting by hand
 
 </v-click>
 ::right::
@@ -275,5 +276,53 @@ layout: two-cols
 10. Swift
 
 </v-click>
+
+---
+
+###### What is Programming ?
+# Two types of programming languages
+
+<v-click>
+
+- Each language also has an attribute known as <span class="text-red-500">power</span> or <span class="text-green-500">level</span>
+- Till now, thousands of programming languages have come into form. All of them have their own specific purposes.
+- All of these languages have a variation in terms of the level of abstraction that they all provide from the hardware. 
+- A few of these languages provide less or no abstraction at all, while the others provide a very high abstraction. On the basis of this level of abstraction, there are two types of programming languages:
+  - <span>High-level languages</span>
+  - <span>Low-level languages</span>
+</v-click>
+
+---
+
+###### What is Programming ?
+# High-level languages
+
+- One can easily interpret and combine these languages as compared to the low-level languages.
+- They are very easy to understand.
+- Such languages are programmer-friendly.
+- Debugging is not very difficult.
+- They come with easy maintenance and are thus simple and manageable.
+- One can easily run them on different platforms.
+- They require a compiler/interpreter for translation into a machine code.
+- A user can port them from one location to another.
+- Such languages have a low efficiency of memory. So it consumes more memory than the low-level languages.
+- They are very widely used and popular in today’s times.
+- Java, C, C++, Python, etc., are a few examples of high-level languages.
+
+---
+
+###### What is Programming ?
+# Low-level languages
+
+- They are also called machine-level languages.
+- Machines can easily understand it.
+- High-level languages are very machine-friendly.
+- Debugging them is very difficult.
+- They are not very easy to understand.
+- All the languages come with complex maintenance.
+- They are not portable.
+- These languages depend on machines. Thus, one can run it on various platforms.
+- They always require assemblers for translating instructions.
+- Low-level languages do not have a very wide application in today’s times.
 
 ---
