@@ -11,7 +11,7 @@ layout: intro
 themeConfig:
   twitter: '@phojiee'
   twitterUrl: 'https://twitter.com/jiellineck'
-  eventLogo: './icons/icon.png'
+  eventLogo: 'https://my.ckcm.edu.ph/icon.png'
 ---
 
 # Hello 👋
