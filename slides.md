@@ -536,8 +536,471 @@ layout: intro
 # Activity 3
 # 🧠
 
+---
+layout: intro
+---
 
+# How do we get information from the computers ?
+## How do we know if our program worked? 🤷
 
+---
+layout: two-cols
+---
 
+######  How do we get information from the computers ?
+# The console
 
+<v-click>
 
+- Programmers keep track of their progress by looking at <span class="text-red-600 underline">the console</span>.
+  - A <mark>text interface</mark> within the computer that us programmers can use for a variety of purposes
+  - A place where you can see the **output** of your program
+
+</v-click>
+
+::right::
+
+<v-click>
+
+  <div class="mt-15 flex justify-center">
+    <img src="https://i.ytimg.com/vi/xQLlltomBx0/maxresdefault.jpg"/>
+  </div>
+
+</v-click>
+
+---
+
+######  How do we get information from the computers ?
+# How to use Console 
+
+<v-click>
+
+- The main use of <span class="text-red-600 underline">the console</span> is to output text from the program using <mark>code</mark>.
+  - More specifically a <mark>print statement</mark>
+  - <span class="text-red-600 underline">Displays</span> text to the console for the programmers to see.
+
+</v-click>
+
+---
+layout: text-window
+---
+
+######  How do we get information from the computers ?
+# The Console
+
+<v-click>
+
+- To use the print statement, simply instruct the console to print, and then include whatever you want to be printed
+  - Using <mark>CPP</mark>, we can print to the console like so:
+  <div class="-mt-10 flex justify-center">
+    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.stack.imgur.com%2F1AwnS.png&f=1&nofb=1&ipt=bb6ea327e75f27af06b57b85a449d24ad433ac5bbf76d13cc6144d7ab3a1edb6&ipo=images"/>
+  </div>
+
+</v-click>
+
+::window::
+
+<v-click>
+
+```cpp
+  #include <iostream>
+  using namespace std;
+  int main() {
+    cout << "Hello World!" << endl;
+    // Hello World!
+    return 0;
+  }
+```
+
+</v-click>
+
+---
+layout: intro
+---
+
+# What can computers do ?
+## 🖥️ 🤷
+
+---
+layout: text-image
+media: 'https://media.giphy.com/media/fRhSHzQ4NXOdrHIZJd/giphy.gif'
+---
+
+###### What can computers do ?
+# Computers can do MATH!
+
+<v-click>
+
+- Computers are very good at doing math
+  - They can do math faster than humans
+  - They can do math with <mark>precision</mark>
+  - They can do math with <mark>accuracy</mark>
+- The computer already knows how to do <mark>simple arithmetic</mark> (addition, subtraction, multiplication, division)
+- You'll be able to print the result of any math operation in an IDE that you may install on your computer.
+
+</v-click>
+
+---
+layout: text-window
+---
+
+###### What can computers do ?
+# Calculator Example
+
+<v-click>
+
+- Building a <mark>Calculator App</mark>
+  - A calculator app is a program that can do math
+  - We'd need to utilize this functionality in order to correctly display the answer to an artithmetic problem.
+
+</v-click>
+
+::window::
+
+<v-click >
+
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a, b;
+    char op;
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
+    cout << "Enter operator: ";
+    cin >> op;
+    switch(op)
+    {
+        case '+':
+            cout << a + b;
+            break;
+        case '-':
+            cout << a - b;
+            break;
+        case '*':
+            cout << a * b;
+            break;
+        case '/':
+            cout << a / b;
+            break;
+        default:
+            cout << "Error! operator is not correct";
+            break;
+    }
+    return 0;
+}
+```
+
+</v-click>
+
+---
+layout: intro
+---
+
+# Introduction to C++
+## 🚀 🚀 🚀
+
+---
+
+###### Introduction to C++
+# What is C++?
+
+- C++ is a <mark>cross-platform language</mark> that can be used to create high-performance applications.
+
+- C++ was developed by <mark>Bjarne Stroustrup</mark>, as an extension to the C language.
+
+- C++ is a <mark>middle-level language</mark> rendering it the advantage of programming low-level (drivers, kernels) and even higher-level applications (games, GUI, desktop apps etc.)
+
+---
+
+###### Introduction to C++
+# Advantages of C++
+
+- <mark>Multi-paradigm Language</mark> - C++ supports at least seven different styles of programming. Developers can choose any of the styles.
+- <mark>General Purpose Language</mark> - You can use C++ to develop games, desktop apps, operating systems, and so on.
+- <mark>Speed</mark> - Like C programming, the performance of optimized C++ code is exceptional.
+- <mark>Object-oriented</mark> - C++ allows you to divide complex problems into smaller sets by using objects.
+
+---
+
+###### Introduction to C++
+# Why Use C++
+
+- C++ is one of the world's most popular programming languages.
+- C++ can be found in today's operating systems, Graphical User Interfaces, and embedded systems (Windows OS)
+- C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs.
+- C++ is portable and can be used to develop applications that can be adapted to multiple platforms.
+- C++ is fun and easy to learn!
+- As C++ is close to C, C# and Java, it makes it easy for programmers to switch to C++ or vice versa.
+
+```
+
+ Extremely Powerful apps written in C++
+
+ - Google
+ - Amazon
+ - Youtube 
+ - Windows OS
+ - Microsoft Office
+```
+---
+
+###### Introduction to C++
+# Get started
+
+1. Text Editor || Code Editor 
+
+2. Compiler
+
+3. Debugger
+
+<span class="text-green-600">or</span>
+
+1. IDE
+
+---
+layout: intro
+---
+
+# The VSCODE
+## Visual Studio Code 🏗️
+
+---
+layout: two-cols
+---
+
+###### Visual Studio Code
+# What is VSCode
+
+<v-click>
+
+- Visual Studio Code is a <span class="text-green-600 underline">light but powerful source code editor</span> which runs on your desktop and is available for Windows, MacOS, and Linux.
+
+</v-click>
+
+<v-click>
+
+<div class="flex mt-14 justify-center bg-white rounded-md">
+  <img src="icons/vscode.png"/>
+</div>
+
+</v-click>
+
+::right::
+
+<div class="h-80 flex justify-center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"/>
+</div>
+
+---
+layout: text-image
+media: 'https://media.giphy.com/media/gLcUG7QiR0jpMzoNUu/giphy.gif'
+---
+
+###### Visual Studio Code
+# Why VSCODE ?
+
+<v-click>
+
+- <mark>Available for macOS, Linux, and Windows (FOR FREE!) </mark> - so you can hit the ground running, no matter the platform.
+
+</v-click>
+
+<v-click>
+
+- <mark> Edit, build, and debug with ease </mark> - At its heart, Visual Studio Code features a lightning fast source code editor, perfect for day-to-day use.
+
+</v-click>
+
+<v-click>
+
+- <mark> Robust and extensible architecture </mark> - Visual Studio Code includes a public extensibility model that lets developers build and use extensions, and richly customize their edit-build-debug experience.
+
+</v-click>
+
+---
+layout: two-cols
+---
+
+###### Visual Studio Code
+# The Installation for C++
+
+<v-click>
+
+1. 🔗 https://code.visualstudio.com/ - <mark> VSCode </mark>
+
+</v-click>
+
+<v-click>
+
+2.  C/C++ by Microsoft - <mark>VSCode Extension for C++</mark>
+  - ✅ Quick links
+  - ✅ Editing features (IntelliSense)
+  - ✅ IntelliSense configuration
+  - ✅ Enhanced colorization
+  - ✅ Debugging
+  - ✅ Debug configuration
+  - ✅ Enable logging for IntelliSense or debugging
+
+</v-click>
+
+::right::
+
+<div class="mt-15">
+
+<v-click>
+
+3. C/C++ Compiler 
+  - sudo apt-get update
+  - sudo apt-get install build-essential gdb
+  - gcc -v (Check if installed correctly)
+
+ references: 
+  - 🔗 https://code.visualstudio.com/docs/cpp/config-linux <mark>(Linux)</mark>
+  - 🔗 https://code.visualstudio.com/docs/cpp/config-clang-mac <mark>(Mac)</mark>
+  - 🔗 https://code.visualstudio.com/docs/cpp/config-msvc <mark>(Windows)</mark>
+
+</v-click>
+
+</div>
+
+---
+layout: intro
+---
+
+# Ready, set, code!
+## 🔴 Writing my first Program 🚧 🚧 🚧
+
+---
+
+###### Ready, set, code!
+# C++ Quickstart
+
+<v-click>
+
+1. Create a folder inside the Public's folder 
+  - Folder name === CS-11 2022 
+
+</v-click>
+
+<v-click>
+
+2. Create a .cpp file
+  - File === Hello[YourFamilyName].cpp (eg: HelloRengel.cpp)
+
+</v-click>
+
+<v-click>
+
+3. Write the following
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello [YourFamilyName]!";
+  return 0;
+}
+```
+
+</v-click>
+
+---
+layout: two-cols
+---
+
+###### Ready, set, code!
+# C++ Syntax
+
+<v-click>
+
+1. `Line 1: #include <iostream>` is a header file library that lets us work with input and output objects, such as cout (used in line 5). Header files add functionality to C++ programs.`
+
+</v-click>
+
+<v-click>
+
+2. `Line 2: using namespace std` means that we can use names for objects and variables from the standard library.
+  ```cpp
+  #include <iostream>
+  int main() {
+    std::cout << "Hello World!";
+    return 0;
+  }
+  ```
+
+</v-click>
+
+<v-click>
+
+3. `Line 3: A blank line.` C++ ignores white space. But we use it to make the code more readable.
+
+</v-click>
+
+<v-click>
+
+4. `Line 4: Another thing that always appear in a C++ program, is int main().` This is called a function. Any code inside its curly brackets {} will be executed.
+
+</v-click>
+
+::right::
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello [YourFamilyName]!";
+  return 0;
+}
+```
+
+---
+layout: two-cols
+---
+
+###### Ready, set, code!
+# C++ Syntax
+
+<v-click>
+
+5. `Line 5: cout (pronounced "see-out")` is an object used together with the insertion operator (<<) to output/print text. In our example it will output "Hello World".
+
+> Note: Every C++ statement ends with a semicolon ;.
+
+> Note: The body of int main() could also been written as:
+int main () { cout << "Hello World! "; return 0; } 
+
+</v-click>
+
+<v-click>
+
+6. `Line 6: return 0 ` ends the main function.
+
+</v-click>
+
+<v-click>
+
+7. `Line 7: Do not forget to add the closing curly bracket }` to actually end the main function.
+
+</v-click>
+
+::right::
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello [YourFamilyName]!";
+  return 0;
+}
+```
+
+---
+layout: intro
+---
+
+###### 🚀🚀🚀
+# Congratulations!!!
