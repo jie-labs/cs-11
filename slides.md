@@ -1004,3 +1004,397 @@ layout: intro
 
 ###### 🚀🚀🚀
 # Congratulations!!!
+
+
+---
+layout: intro
+---
+
+# New lines and tabs
+## Introduction to C++
+
+---
+layout: text-image
+media: './images/1.png'
+---
+
+###### Introduction to C++
+# New lines in C++
+
+<v-click>
+
+To insert a new line, you can use the \n character:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World! \n";
+  cout << "I am learning C++";
+  return 0;
+}
+```
+
+</v-click>
+
+---
+layout: text-image
+media: './images/2.png'
+---
+
+###### Introduction to C++
+# New lines in C++
+
+<v-click>
+
+Tip: Two \n characters after each other will create a blank line:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World! \n\n";
+  cout << "I am learning C++";
+  return 0;
+}
+```
+
+</v-click>
+
+---
+layout: text-image
+media: './images/1.png'
+---
+
+###### Introduction to C++
+# New lines in C++
+
+Another way to insert a new line, is with the endl manipulator:
+
+<v-click>
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!" << endl;
+  cout << "I am learning C++";
+  return 0;
+}
+```
+
+</v-click>
+
+---
+layout: intro
+---
+
+# Activity 4
+# 1 / 2 👩‍💻 
+
+---
+layout: text-image
+media: './images/4.png'
+---
+
+###### Activity 4
+# 50 points
+
+## 👨‍🔬 Problem
+
+`Write a program in C++ to print the following pattern.`
+
+---
+layout: intro
+---
+
+# C++ Comments
+## Introduction to C++
+
+---
+layout: text-window
+---
+
+###### Introduction to C++
+# Comments
+
+<v-click>
+
+Comments can be used to explain C++ code, and to make it more readable. It can also be used to prevent execution when testing alternative code. Comments can be `singled-lined` or `multi-lined`.
+
+</v-click>
+
+::window::
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  // The code below will print the words Hello World!
+  cout << "Hello World!";
+  return 0;
+}
+```
+
+---
+layout: text-window
+---
+
+###### Introduction to C++
+# Single-line comments
+
+<v-click>
+
+Single-line comments start with two forward slashes `//`.
+
+Any text between `//` and the end of the line is ignored by the compiler (will not be executed).
+
+This example uses a single-line comment before a line of code:
+
+</v-click>
+
+::window::
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  // This is a comment
+  cout << "Hello World!";
+  return 0;
+}
+```
+
+-
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!"; // This is a comment
+  return 0;
+}
+```
+
+---
+layout: text-window
+---
+
+###### Introduction to C++
+# Multi-line comments
+
+<v-click>
+
+Multi-line comments start with `/*` and ends with `*/`.
+
+Any text between `/* and */` will be ignored by the compiler:
+
+</v-click>
+
+::window::
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  /* The code below will print the words Hello World! */
+  cout << "Hello World!";
+  return 0;
+}
+```
+
+-
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  /* The code below will print the words Hello World!
+     to the screen, and it is amazing 
+  */  
+  cout << "Hello World!";
+  return 0;
+}
+
+```
+
+---
+layout: intro
+---
+
+# Variables and types
+## Introduction to C++
+
+---
+
+###### Introduction to C++
+# Variables and types
+
+<v-click>
+
+Variables are containers for storing data values.
+
+</v-click>
+
+<v-click>
+
+In C++, there are different types of variables (defined with different keywords), for example:
+
+</v-click>
+
+<v-click>
+
+- `int` 
+  - stores integers (whole numbers), without decimals, such as 123 or -123
+  - Its size is usually 4 bytes. Meaning, it can store values from -2147483648 to 2147483647.
+
+For example,
+```cpp
+int salary = 85000;
+```
+
+</v-click>
+
+<v-click>
+
+- `double` 
+   - stores floating point numbers, with decimals and exponentials, such as 19.99 or -19.99
+   - The size of double is 8 bytes
+
+For example,
+```cpp
+double volume = 134.64534;
+```
+
+</v-click>
+
+---
+
+###### Introduction to C++
+# Variables and types
+
+<v-click>
+
+- `float` 
+   - store floating-point numbers (decimals and exponentials).
+   - The size of float is 4 bytes
+
+For example,
+```cpp
+float area = 64.74;
+```
+
+</v-click>
+
+<v-click>
+
+- `char` 
+  - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+  - Its size is 1 byte.
+
+For example,
+```cpp
+char test = 'h';
+```
+
+</v-click>
+
+---
+
+###### Introduction to C++
+# Variables and types
+
+<v-click>
+
+- `wchar_t` 
+  - Wide character wchar_t is similar to the char data type, except its size is 2 bytes instead of 1.
+  - It is used to represent characters that require more memory to represent them than a single char.
+
+For example,
+```cpp
+wchar_t test = L'ם'  // storing Hebrew character;
+```
+
+</v-click>
+
+<v-click>
+
+- `string` - stores text, such as "Hello World". String values are surrounded by double quotes
+
+For example,
+```cpp
+string myText = "Hello"; // String
+```
+
+</v-click>
+
+---
+
+###### Introduction to C++
+# Variables and types
+
+<v-click>
+
+- `bool` - stores values with two states: true or false
+
+For example,
+```cpp
+bool cond = false;
+```
+
+</v-click>
+
+---
+layout: text-window
+---
+
+###### Variables
+# Declaring Variables
+
+Syntax for declaring variables:
+
+`type variableName = value;`
+
+::window::
+
+```cpp
+int myNum = 5;               // Integer (whole number)
+float myFloatNum = 5.99;     // Floating point number
+double myDoubleNum = 9.98;   // Floating point number
+char myLetter = 'D';         // Character
+bool myBoolean = true;       // Boolean
+string myText = "Hello";     // String
+```
+
+---
+layout: intro
+---
+
+# Activity 4
+# 2 / 2 👩‍💻 
+
+---
+layout: text-image
+media: './images/4.png'
+---
+
+###### Activity 4
+# 50 points
+
+## 👨‍🔬 Problem
+
+`Write a program in C++ to print the total value of 3 numbers.`
+`The numbers are 0.5, 4, and 45.999999`
+
+* Note that you should use 3 different datatypes.
+
+
+
