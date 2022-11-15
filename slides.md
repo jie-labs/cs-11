@@ -1025,6 +1025,8 @@ media: './images/1.png'
 
 To insert a new line, you can use the \n character:
 
+`https://www.programiz.com/cpp-programming/online-compiler/`
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -1191,7 +1193,7 @@ layout: text-window
 
 <v-click>
 
-Multi-line comments start with `/*` and ends with `*/`.
+Multi-line comments start with `/*`and ends with `*/`.
 
 Any text between `/* and */` will be ignored by the compiler:
 
@@ -1374,6 +1376,43 @@ bool myBoolean = true;       // Boolean
 string myText = "Hello";     // String
 ```
 
+<v-click>
+
+</v-click>
+
+---
+layout: intro
+---
+
+# Activity 4
+# 1.5 / 2 👩‍💻 
+
+---
+layout: text-image
+media: './images/7.png'
+---
+
+# Activity 4
+# 1.5 / 2 👩‍💻 
+
+## 👨‍🔬 Problem
+
+`Write a program in C++ to print the variable of your name, age, and year born.`
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  string name = "Phojie Rengel";
+  int age = 4;
+  cout << "My name is " << name << endl; 
+  cout << age << " years old";
+  // Your code here for born year
+  return 0;
+}
+```
+
 ---
 layout: intro
 ---
@@ -1383,7 +1422,7 @@ layout: intro
 
 ---
 layout: text-image
-media: './images/4.png'
+media: './images/5.png'
 ---
 
 ###### Activity 4
