@@ -1110,6 +1110,39 @@ media: './images/4.png'
 `Write a program in C++ to print the following pattern.`
 
 ---
+layout: text-window
+---
+
+###### Activity 4
+# 50 points
+
+## 👨‍🔬 Problem
+
+`Write a program in C++ to print the following pattern.`
+
+::window:: 
+
+```cpp
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+  cout << "\n\n The C++:\n";
+	cout << "--------------------------------\n";
+	cout << " xxxxx\n";
+	cout << "x     x       x        x\n";
+	cout << "x             x        x\n";
+	cout << "x          xxxxxxx  xxxxxxx\n";
+	cout << "x             x        x\n";
+	cout << "x     x       x        x\n";
+	cout << " xxxxx\n";
+}
+```
+
+
+
+---
 layout: intro
 ---
 
@@ -1392,12 +1425,25 @@ layout: text-image
 media: './images/7.png'
 ---
 
-# Activity 4
+###### Activity 4
 # 1.5 / 2 👩‍💻 
 
 ## 👨‍🔬 Problem
 
 `Write a program in C++ to print the variable of your name, age, and year born.`
+
+---
+layout: text-window
+---
+
+###### Activity 4
+# 1.5 / 2 👩‍💻 
+
+## 👨‍🔬 Problem
+
+`Write a program in C++ to print the variable of your name, age, and year born.`
+
+::window::
 
 ```cpp
 #include <iostream>
@@ -1435,5 +1481,432 @@ media: './images/5.png'
 
 * Note that you should use 3 different datatypes.
 
+---
+layout: text-window
+---
 
+###### Activity 4
+# 50 points
 
+## 👨‍🔬 Problem
+
+`Write a program in C++ to print the total value of 3 numbers.`
+`The numbers are 0.5, 4, and 45.999999`
+
+* Note that you should use 3 different datatypes.
+
+::window::
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  int num_1 = 4;
+  float num_2 = 0.5;
+  double num_3 = 45.999999;
+
+  cout << (num_1 + num_2 + num_3);
+}
+
+```
+
+---
+layout: intro
+---
+
+###### Introduction to C++
+# Input Types
+
+---
+
+###### Introduction to C++
+# C++ User Input
+
+<v-click>
+
+- You have already learned that `cout` is used to output (print) values. Now we will use `cin` to get user input.
+
+- `cin` is a predefined variable that reads data from the keyboard with the extraction operator (`>>`).
+
+</v-click>
+
+<v-click>
+
+In the following example, the user can input a number, which is stored in the variable x. Then we print the value of x:
+
+```cpp
+#include <iostream>
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x;
+  cout << "Type a number: "; // Type a number and press enter
+  cin >> x; // Get user input from the keyboard
+  cout << "Your number is: " << x;
+  return 0;
+}
+
+```
+
+</v-click>
+
+---
+layout: text-image
+media: './images/8.png'
+---
+
+###### Introduction to C++
+# C++ User Input
+
+```cpp
+#include <iostream>
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x;
+  cout << "Type a number: "; // Type a number and press enter
+  cin >> x; // Get user input from the keyboard
+  cout << "Your number is: " << x;
+  return 0;
+}
+```
+
+<v-click>
+
+`cout` is pronounced "see-out". Used for output, and uses the insertion operator (`<<`)
+
+</v-click>
+<v-click>
+
+`cin` is pronounced "see-in". Used for input, and uses the extraction operator (`>>`)
+
+</v-click>
+
+---
+layout: intro
+---
+
+# Activity 5
+# 1 / 5 👩‍💻 
+
+---
+layout: text-image
+media: './gif/1.gif'
+---
+
+###### Activity 5 (1/2)
+# 20 points
+
+### 👨‍🔬 Problem
+
+`Write a program in C++ that print your name and calculate your born year using your age.`
+
+* Name and age should be input by the user.
+
+---
+layout: text-image
+media: './gif/1.gif'
+---
+
+###### Activity 5 (1/2)
+# 20 points
+
+### 👨‍🔬 Solution
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  string name;
+  int age;
+  
+  cout << "What is your name: "; cin >> name;
+  cout << "How old are you " << name << "? "; 
+  cin >> age; 
+  
+  cout << "\n\n So You were born in " << (2022-age) <<", " << name << " ^_^";
+  return 0;
+}
+```
+
+---
+layout: intro
+---
+
+###### Introduction to C++
+# Operators
+
+---
+layout: text-image
+media: 'https://media.giphy.com/media/PEf0FKazthTUI/giphy-downsized-large.gif'
+---
+
+###### Introduction to C++
+# C++ Operators
+
+<v-click>
+
+- In mathematics and computer programming, an operator is a character that represents a specific mathematical or logical action or process. 
+- Operators are used to perform operations on variables and values.
+
+</v-click>
+
+---
+layout: text-image
+media: './images/9.png'
+---
+
+###### Introduction to C++
+# C++ Operators
+
+<v-click>
+
+In the following example, the user can input a number, which is stored in the variable x. Then we print the value of x:
+
+```cpp
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int sum1 = 100 + 50;        // 150 (100 + 50)
+  int sum2 = sum1 + 250;      // 400 (150 + 250)
+  int sum3 = sum2 + sum2;     // 800 (400 + 400)
+  cout << sum1 << "\n";
+  cout << sum2 << "\n";
+  cout << sum3;
+  return 0;
+}
+```
+
+</v-click>
+
+---
+layout: text-image
+media: 'https://media.giphy.com/media/2aU2pXeVOsbUx1OTow/giphy.gif'
+---
+
+###### Introduction to C++
+# The 5 operators
+
+C++ divides the `operators` into the following groups:
+
+<v-click>
+
+1. Arithmetic operators
+
+</v-click>
+
+<v-click>
+
+2. Assignment operators
+
+</v-click>
+
+<v-click>
+
+3. Comparison operators
+
+</v-click>
+
+<v-click>
+
+4. Logical operators
+
+</v-click>
+
+<v-click>
+
+5. Bitwise operators
+
+</v-click>
+
+---
+layout: text-image
+media: 'https://media.giphy.com/media/3orieN7HEHI0tw8x5C/giphy.gif'
+---
+
+###### Introduction to C++
+# Arithmetic Operators
+
+ `Arithmetic` operators are used to perform common mathematical operations.
+
+For example:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x = 100 + 50;
+  cout << x; // Outputs 150
+  return 0;
+}
+```
+
+---
+layout: new-section
+---
+
+# Arithmetic Operators
+
+<img src="/images/10.png" />
+
+---
+layout: text-image
+media: 'https://media.giphy.com/media/3M7zONV3crYGZCgtwo/giphy.gif'
+---
+
+###### Introduction to C++
+# Assignment Operators
+
+`Assignment` operators are used to assign values to variables.
+
+For example:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x = 10;
+  cout << x; // Outputs 10
+  return 0;
+}
+
+```
+
+---
+layout: new-section
+---
+
+# Assignment Operators
+
+<img src="/images/11.png" />
+
+---
+layout: text-image
+media: 'https://media.giphy.com/media/icJA0VF7ntoEL18Jez/giphy.gif'
+---
+
+###### Introduction to C++
+# Comparison Operators
+
+`Comparison` operators are used to compare two values.
+
+For example:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x = 5;
+  int y = 3;
+
+  cout << (x > y); // returns 1 (true) because 5 is greater than 3
+
+  return 0;
+}
+```
+
+---
+layout: new-section
+---
+
+# Comparison Operators
+
+<img src="/images/12.png" />
+
+---
+layout: text-image
+media: 'https://media.giphy.com/media/fZBel4Dok7qlpBBrqc/giphy.gif'
+---
+
+###### Introduction to C++
+# Logical Operators
+
+`Logical` operators are used to determine the logic between variables or values
+
+For example:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x = 5;
+  int y = 3;
+
+  cout << (x > 3 && x < 10); // returns true (1) because 5 is greater than 3 AND 5 is less than 10
+
+  return 0;
+}
+
+```
+
+---
+layout: new-section
+---
+
+# Logical Operators
+
+<img src="/images/13.png" />
+
+<!-- 
+###### Introduction to C++
+# Logical Operators
+
+`Bitwise` operators perform operations on integer data at the individual bit-level. 
+
+ -->
+
+---
+layout: intro
+---
+
+# Activity 5
+# 2 / 2 👩‍💻 
+
+---
+layout: text-image
+media: './gif/1.gif'
+---
+
+###### Activity 5 (2/2)
+# 80 points
+
+### 👨‍🔬 Problem
+
+`Write a program in C++ that calculate your average grades from prelim to final.`
+
+---
+layout: text-image
+media: './gif/2.gif'
+---
+
+###### Activity 5 (2/5)
+# 20 points
+
+### 👨‍🔬 Solution
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  float prelim, midterm, semi_final, final;
+  float average;
+
+  cout << "Enter your grades from prelim to final: ";
+  cin >> prelim >> midterm >> semi_final >> final;
+  average = (prelim + midterm + semi_final + final) / 4.0;
+  cout << "Average = " << average;
+
+  return 0;
+}
+```
