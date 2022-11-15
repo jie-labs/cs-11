@@ -1890,7 +1890,7 @@ media: './gif/2.gif'
 ---
 
 ###### Activity 5 (2/5)
-# 20 points
+# 80 points
 
 ### 👨‍🔬 Solution
 
