@@ -782,7 +782,7 @@ layout: two-cols
 <v-click>
 
 <div class="flex mt-14 justify-center bg-white rounded-md">
-  <img src="icons/vscode.png"/>
+  <img src="/icons/vscode.png"/>
 </div>
 
 </v-click>
