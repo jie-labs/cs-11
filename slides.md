@@ -1874,7 +1874,7 @@ layout: intro
 
 ---
 layout: text-image
-media: './gif/1.gif'
+media: './gif/2.gif'
 ---
 
 ###### Activity 5 (2/2)
