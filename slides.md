@@ -1537,7 +1537,6 @@ In the following example, the user can input a number, which is stored in the va
 
 ```cpp
 #include <iostream>
-#include <iostream>
 using namespace std;
 
 int main() {
@@ -1561,7 +1560,6 @@ media: './images/8.png'
 # C++ User Input
 
 ```cpp
-#include <iostream>
 #include <iostream>
 using namespace std;
 
@@ -1899,14 +1897,17 @@ media: './gif/2.gif'
 using namespace std;
 
 int main() {
-  float prelim, midterm, semi_final, final;
-  float average;
-
-  cout << "Enter your grades from prelim to final: ";
-  cin >> prelim >> midterm >> semi_final >> final;
-  average = (prelim + midterm + semi_final + final) / 4.0;
-  cout << "Average = " << average;
+  // write your code here
 
   return 0;
 }
 ```
+<!-- TODO: add solution -->
+<!-- float prelim, midterm, semi_final, final;
+float average;
+
+cout << "Enter your grades from prelim to final: ";
+cin >> prelim >> midterm >> semi_final >> final;
+average = (prelim + midterm + semi_final + final) / 4.0;
+cout << "Average = " << average; -->
+
