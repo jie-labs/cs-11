@@ -1887,7 +1887,7 @@ layout: text-image
 media: './gif/2.gif'
 ---
 
-###### Activity 5 (2/5)
+###### Activity 5 (2/2)
 # 80 points
 
 ### 👨‍🔬 Solution
@@ -1897,17 +1897,70 @@ media: './gif/2.gif'
 using namespace std;
 
 int main() {
-  // write your code here
+  float prelim, midterm, semi_final, final;
+  float average;
+
+  cout << "Enter your grades from prelim to final: ";
+  cin >> prelim >> midterm >> semi_final >> final;
+  average = (prelim + midterm + semi_final + final) / 4.0;
+  cout << "Average = " << average;
 
   return 0;
 }
 ```
 <!-- TODO: add solution -->
-<!-- float prelim, midterm, semi_final, final;
-float average;
 
-cout << "Enter your grades from prelim to final: ";
-cin >> prelim >> midterm >> semi_final >> final;
-average = (prelim + midterm + semi_final + final) / 4.0;
-cout << "Average = " << average; -->
 
+---
+layout: intro
+---
+
+###### Introduction to C++
+# Conditions
+
+---
+layout: text-window
+---
+
+###### Conditions
+# If ... Else
+
+C++ has the following conditional statements:
+
+- Use `if` to specify a block of code to be executed, if a specified condition is true
+- Use `else` to specify a block of code to be executed, if the same condition is false
+- Use `else if` to specify a new condition to test, if the first condition is false
+
+::window::
+
+```cpp
+
+if (condition) {
+  // block of code to be executed if the condition is true
+} else if (condition) {
+  // block of code to be executed if the condition is true
+}
+else {
+  // block of code to be executed if the condition is false
+}
+
+```
+
+<!-- create a calculator using if else conditions -->
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x = 20;
+  int y = 18;
+
+  if (x > y) {
+    cout << "x is greater than y";
+  } else {
+    cout << "x is not greater than y";
+  }
+
+  return 0;
+}
+```
