@@ -1957,10 +1957,50 @@ int main() {
 
   if (x > y) {
     cout << "x is greater than y";
+  } else if (x == y) {
+    cout << "x is equal to y";
   } else {
     cout << "x is not greater than y";
   }
 
   return 0;
+}
+```
+
+``cpp
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    int operand;
+    float number1, number2;
+    \    
+    
+    cout << "Enter two numbers: ";
+    cin >> number1 >> number2;
+    
+    cout << "1. +\n";
+    cout << "2. -\n";
+    cout << "3. *\n";
+    cout << "4. /\n";
+    cout << "Choose an operand: ";
+    cin >> operand;
+    
+    
+    if(operand == 1) {
+        cout << number1 << "+" << number2 << " = " << (number1+number2);
+    } else if (operand == 2) {
+        cout << number1 << "-" << number2 << " = " << (number1-number2);
+    } else if (operand == 3) {
+        cout << number1 << "*" << number2 << " = " << (number1*number2);
+    } else if (operand == 4) {
+        cout << number1 << "/" << number2 << " = " << (number1/number2);
+    } else {
+        cout << "Operand not found";
+    }
+    
+    
+    
+    return 0;
 }
 ```
